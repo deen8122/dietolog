@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Персональный диетолог</title>
+        <link rel="stylesheet" href="themes/green-theme.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.css" />
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+
+    <!--
+https://www.iconfinder.com/icons/2137818/apple_food_fruit_organic_vegan_vegetarian_icon
+    
+      D:
+            cd D:\OpenServer\domains\dietolog\
+            set JAVA_HOME=D:\Program Files\Java\jdk1.8.0_77
+            cordova platform add android-23
+            cordova run android --release -- --keystore=D:\googledisk\key_dietolog_31129deen812.jks --storePassword=31129deen812 --alias=deen812 --password=31129deen812
+           
+ 
+    D:\OpenServer\domains\dietolog\platforms\android\app\build\outputs\apk\release
+    -->
+    <body>
+        <div data-role="page" data-theme="a" id='main'>
+            <div class="header-block">
+                <img src="img/veg.png">
+                <div class="title"> Персональный<br>
+                    Диетолог<br>
+                </div>
+            </div>
+            <div data-role="content" data-theme="a">
+
+
+
+
+                <div class="m-1">
+                    <a class="myButtonGreen" href="#personal"> Заказать программу</a>
+
+                    <br/>
+                    <div class="main-text">
+                        <p>Мы составляем программу на основе правильного питания (ПП). 
+                            Никаких лекарств, никаких БАДов, процесс похудения происходит за счет активации физиологических процессов. </p>
+
+                        <p>   
+                            Мы не обещаем быстрого похудения, потеря веса происходит равномерно по 0,5-1кг в неделю согласно рекомендациям Всемирной Организации Здравоохранения (ВОЗ). 
+                        </p>
+
+                        <p>  Наша диета составляется на основе оптимального сочетания белков, жиров, углеводов (БЖУ), оптимальной калорийности, 
+                            которая учитывает Вашу физическую активность, и, конечно же, Ваши вкусовые предпочтения. 
+
+                        </p>
+                        <p>
+                            Наша программа на основе правильного питания составляется 
+                            сертифицированным специалистом с высшим медицинским образованием
+                            и ученой степенью к.м.н
+                        </p>
+                        <a class="myButtonGreen" href="#personal"> Заказать программу</a>
+                    </div>
+                    <br/>
+                </div>
+                <div class="m-2">
+                    <p> Ниже предлагается бесплатная неделя для ознакомления. 
+                        
+                        <!-- Если Вы хотите заказать Персональную программу, нажмите здесь. --></p>
+                    <a class="myButtonGreen" href="page/menu.html">Бесплатное меню</a>
+                    <br/>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div data-role="page" id="personal">
+            <div data-role="header" class="header-inner">
+                <a href="#main"  data-shadow="false"  data-iconshadow="false" class="btn-back-top"  >Назад</a>
+
+            </div>
+            <div data-role="content" >
+
+                <h2>ЗАКАЗАТЬ ПРОГРАММУ:</h2> 
+
+                <p> Впишите свою электронную почту, чтобы мы смогли с Вами связаться. 
+                    Ознакомьтесь, пожалуйста, ниже с условиями и стоимостью индивидуально составленной программы по питанию. 
+                </p>
+
+                <p> Условия участия в программе: </p>
+                <ul>
+
+
+                    <li>1. Вам больше 18 лет. </li>
+                    <li>2. У Вас нет острых или обострения хронических заболеваний. </li>
+                    <li>3. Вы не беременны и не кормите грудью. </li>
+                    <li>4. Также Вам потребуются кухонные весы</li>
+                </ul>
+                <p> Длительность программы составляет 6 недель. Стоимость 1900 руб в неделю, при единовременной оплате 9900 руб за полный курс. </p>
+
+
+                <form>
+                    <input type="email" name="email" id="email" placeholder="email@mail.ru" required="">
+                    <button type="button" class="myButtonGreen" onclick="FormSend()" >Отправить заявку</button>
+                </form>
+
+            </div>
+        </div>
+
+
+    </body>
+</html>

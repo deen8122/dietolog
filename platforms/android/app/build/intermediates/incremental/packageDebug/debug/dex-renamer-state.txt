@@ -1,0 +1,4 @@
+#Sat Nov 03 00:03:32 YEKT 2018
+base.0=D\:\\OpenServer\\domains\\dietolog\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=D\:\\OpenServer\\domains\\dietolog\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
